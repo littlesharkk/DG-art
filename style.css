@@ -154,6 +154,13 @@ body {
   margin: 0 auto;
 }
 
+.direitos{
+  font-weight: 300;
+  font-size: 14px;
+  align-items: center;
+  color: #ffffff;
+}
+
 .container{
   position: relative;
   display: flex;
