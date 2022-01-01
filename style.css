@@ -89,6 +89,7 @@ body {
 }
 
 .conteudo-principal-escrito-botao {
+  margin-top: 30px;
   margin-left: 43%;
   background-color: #da1919;
   width: 180px;
@@ -114,7 +115,7 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 24px;
-  argin-top: 48px;
+  margin-top: 48px;
 }
 
 .conteudo-secundario-titulo {
@@ -162,13 +163,13 @@ body {
 }
 
 .container{
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  osition: relative;
+  isplay: inline-block;
+  ustify-content: center;
+  lign-items: center;
   max-width: 1200px;
-  flex-wrap: wrap;
-  z-index: 1;
+  lex-wrap: wrap;
+  z-index: 2;
   }
 
   .container .card{
