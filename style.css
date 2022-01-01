@@ -9,8 +9,6 @@
 
 body {
   font-size: 100%;
-  ackground: linear-gradient(88.15deg, #5914b4 16.62%, #0a031f 85.61%);
-  ackground-image: url('https://www.pngmagic.com/product_images/youtube-channel-thumbnail-background.jpg');
   background-image: url(bg1.jpg) ;
   background-repeat: no-repeat;
   background-size: cover;
@@ -36,7 +34,9 @@ body {
 }
 
 .cabecalho-imagem {
-  height: 72px;
+  height: 180px;
+  margin-top: 50px;
+  margin-left: 10%;
 }
 
 .cabecalho-menu {
@@ -221,3 +221,30 @@ body {
       font-weight: 500;
       box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
+
+ 
+}
+
+section{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+section .text{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    font-size: 5em;
+    text-align: center;
+    color: #ffffff;
+    -webkit-box-reflect: below -0.46em linear-gradient(transparent,#0004);
+}
+
+section .text span{
+    position: relative;
+    display: inline-block;
+}
